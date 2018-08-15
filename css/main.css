@@ -40,54 +40,6 @@ font-size: 16px;
 color: #000000;
 }
 
-.section_box {
-margin: 10px;
-padding: 10px;
-background: #82CAFA;
-color: #000000;
-}
-.section_box0{
-margin-top: 0px;
-padding: 10px;
-background: #FFFFFF;
-color: #000000;
-}
-.section_box1 {
-margin-top: 15px;
-padding: 10px;
-background: #FFFFFF;
-color: #616D7E;
-}
-.section_box2 {
-margin-top: 15px;
-padding: 10px;
-background: #FDD017;
-color: #990000;
-}
-.section_box3 {
-margin-top: 15px;
-padding: 10px;
-background: #87F717;
-color: #254117;
-}
-.section_box a {
-color: #FFFF99;
-}
-.section_box0 a {
-color: #008000;
-}
-.section_box1 a {
-color: #008000;
-}
-.section_box2 a {
-color: #008000;
-}
-.section_box3 a {
-color: #FFFF99;
-}
-.text_area {
-margin: 10px;
-}
 
 a { text-decoration: none; color: #006ccc; }
 a:hover { color: #008000; text-decoration: underline; }
