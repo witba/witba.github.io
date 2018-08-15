@@ -3,7 +3,7 @@ body { margin:0 auto; padding:0; margin-bottom: 12px; width: 980px; background: 
 #style_container {
 width: 100%;
 margin: auto;
-background: #FFFFFF;
+background: #ba710b;
 }
 #style_header {
 height: 85px;
@@ -11,17 +11,6 @@ background: #b5d8a6;
 }
 #style_content {
 width: 100%;
-}
-#style_left_column {
-background: #FFFFFF;
-float: left;
-width: 220px;
-min-height: 600px;
-}
-#style_right_column {
-float: left;
-width: 760px;
-min-height: 400px;
 }
 #style_title {
 padding-top: 15px;
