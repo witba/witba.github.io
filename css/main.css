@@ -7,10 +7,21 @@ background: #FFFFFF;
 }
 #style_header {
 height: 85px;
-background: #a01c4d;
+background: #b5d8a6;
 }
 #style_content {
 width: 100%;
+}
+#style_left_column {
+background: #FFFFFF;
+float: left;
+width: 220px;
+min-height: 600px;
+}
+#style_right_column {
+float: left;
+width: 760px;
+min-height: 400px;
 }
 #style_title {
 padding-top: 15px;
