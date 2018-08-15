@@ -1,13 +1,13 @@
 body { margin: 20px auto; width: 75%; }
 
-a { text-decoration: none; color: #0055BB; }
+a { text-decoration: none; color: #006ccc; }
 a:hover { color: #008000; text-decoration: underline; }
 
 /*a:link { color: #0055BB; text-decoration: none} */
 /*a:visited { color: #0066CC; text-decoration: none} */
 /*a:active { color: #008000; text-decoration: underline} */
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #2c7a8c; }
+p, ul { font-size: 1.5em; line-height: 1.4em; color: #023a47; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 2.6em;  }
