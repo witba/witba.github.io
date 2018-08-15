@@ -27,7 +27,7 @@ padding: 0;
 float: left;
 font: bold 12px Arial;
 width: 100%;
-border: 1px solid #FFFFFF;
+border: 0.5px solid #FFFFFF;
 border-width: 1px 0;
 background: black url(blde.png) center center repeat-x;
 }
