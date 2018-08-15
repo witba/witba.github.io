@@ -13,7 +13,7 @@ background: #9fed40;
 width: 100%;
 }
 #style_title {
-padding-top: 16px;
+padding-top: 15px;
 padding-left: 20px;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-size: 36px;
@@ -21,7 +21,7 @@ font-style: italic;
 color: #000000;
 }
 #style_subtitle {
-padding-top: 14px;
+padding-top: 11px;
 padding-left: 20px;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-weight: bold;
