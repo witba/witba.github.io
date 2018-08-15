@@ -1,12 +1,16 @@
-body { margin:0 auto; padding:0; margin-bottom: 12px; width: 98%; background: #EEEEEE;}
+body { margin:0 auto; padding:0; margin-bottom: 12px; width: 100%; background: #EEEEEE;}
 
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
 } 
 
+div.fixedwidth {
+  width: 830px ;
+}
+
 #style_container {
-width: 700px;
+width: 750px;
 margin: auto;
 background: #FFFFFF;
 }
@@ -15,7 +19,7 @@ height: 85px;
 background: #9fed40;
 }
 #style_content {
-width: 700px;
+width: 750px;
 }
 #style_title {
 padding-top: 15px;
