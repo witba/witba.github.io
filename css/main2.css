@@ -14,7 +14,7 @@ background: #FFFFFF;
 }
 #style_header {
 height: 160px;
-background: url(AR.gif) no-repeat;
+background: url(AR.png) no-repeat;
 }
 #style_content {
 width: 960px;
@@ -137,7 +137,7 @@ font: bold 12px Arial;
 width: 100%;
 border: 1px solid #FFFFFF;
 border-width: 1px 0;
-background: black url(blde.gif) center center repeat-x;
+background: black url(blde.png) center center repeat-x;
 }
 .solidblockmenu li{
 display: inline;
@@ -154,11 +154,11 @@ color: white;
 }
 .solidblockmenu li .current{
 color: white;
-background: transparent url(blac.gif) center center repeat-x;
+background: transparent url(blac.png) center center repeat-x;
 }
 .solidblockmenu li a:hover{
 color: white;
-background: transparent url(blho.gif) center center repeat-x;
+background: transparent url(blho.png) center center repeat-x;
 }
 p.iepara{
 padding-top: 1em;
