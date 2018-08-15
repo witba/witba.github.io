@@ -25,15 +25,15 @@ footer { border-top: 1px solid #bcbcbc; font-size: .8em; }
 margin: 0;
 padding: 0;
 float: left;
-font: bold 6px Arial;
+font: bold 14px Arial;
 width: 100%;
 border: 1px solid #FFFFFF;
 border-width: 1px 0;
 background: black url(blde.png) center center repeat-x;
 }
-.solidblockmenu li{
+/*.solidblockmenu li{
 display: inline;
-}
+}*/
 .solidblockmenu li a{
 float: left;
 color: white;
@@ -41,9 +41,9 @@ padding: 5px 7px;
 text-decoration: none;
 border-right: 1px solid white;
 }
-.solidblockmenu li a:visited{
+/*.solidblockmenu li a:visited{
 color: white;
-}
+}*/
 .solidblockmenu li .current{
 color: white;
 background: transparent url(blac.png) center center repeat-x;
