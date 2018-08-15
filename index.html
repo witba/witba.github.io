@@ -8,61 +8,50 @@ title: Witek
 			<p>lalalaaa <em>hahaaa</em>. ookk. <a href="/about">Read more about my life...</a></p>
 </div> 
 
-<script language="javascript">
+<form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
 
-function band1()
-{
-	var theText1 = escape(document.form1['search'].value);
-	window.location.href= "http://www.google.com/search?q=" + theText1;
-	return false;
-}
+<p>Search JavaScript Kit:<br />
+<input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" type="text" style="width: 200px" value="navigator object" /> <input type="submit" value="Search" /><br />
+<div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
 
-function search1()
-{
-  // Take search2 contents
-	var theText1 = escape(document.form1['search2'].value);
-  // If there is a text then goto first search
-  if (theText1 != "") {
-	  window.location.href= "http://www.google.com/search?as_q=" + theText1 + "&num=10&btnG=Google+Search&as_oq=&as_epq=&as_eq=&as_occt=any&lr=&as_dt=i&as_sitesearch=scaruffi.com&safe=off";
-	} else {
-	  // else take search contents
-	  theText1 = escape(document.form1['search'].value);
-    // If there is a text then goto second search
-	  if (theText1 != "") band1();
-	  // else do nothing
-	}
-	return false;
-}
-// New erase function (erase text in id)
-function erase1(id) {
-  document.form1[id].value = "";
-}
+<script type="text/javascript">
 
-function band()
-{
-	var theText = escape(document.formGoogle['search'].value);
-	window.location.href= "http://www.google.com/search?q=" + theText;
-	return false;
+// All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="www.javascriptkit.com"
+
+var searchaction=[ //form action for the 3 search engines
+"http://www.google.com/search",
+"http://search.yahoo.com/search",
+"http://search.msn.com/results.aspx"
+]
+
+var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+function switchaction(cur, index){
+cur.form.action=searchaction[index]
+document.getElementById("hiddenquery").name=queryfieldname[index]
 }
 
-function searchMysite()
-{
-  // Take search2 contents
-	var theText = escape(document.formGoogle['search2'].value);
-  // If there is a text then goto first search
-  if (theText != "") {
-	  window.location.href= "http://www.google.com/search?as_q=" + theText + "&num=10&btnG=Google+Search&as_oq=&as_epq=&as_eq=&as_occt=any&lr=&as_dt=i&as_sitesearch=scaruffi.com&safe=off";
-	} else {
-	  // else take search contents
-	  theText = escape(document.formGoogle['search'].value);
-    // If there is a text then goto second search
-	  if (theText != "") band();
-	  // else do nothing
-	}
-	return false;
+function jksitesearch(curobj){
+for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+if (document.jksearch.se[i].checked==true)
+switchaction(document.jksearch.se[i], i)
 }
-// New erase function (erase text in id)
-function erase(id) {
-  document.formGoogle[id].value = "";
+document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
 }
+
+
 </script>
+
+</p>
+
+</form>
+
+<p style="font: normal 11px Arial">This free script provided by<br />
+<a href="http://www.javascriptkit.com">JavaScript Kit</a></p>
