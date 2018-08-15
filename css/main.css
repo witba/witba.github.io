@@ -1,4 +1,6 @@
-body { margin: 20px auto; width: 75%; }
+body { margin: 0; background: #EEEEEE;}
+
+#style_container { margin: 20px auto; width: 75%; background: #FFFFFF;}
 
 a { text-decoration: none; color: #006ccc; }
 a:hover { color: #008000; text-decoration: underline; }
