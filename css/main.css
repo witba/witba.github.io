@@ -18,7 +18,7 @@ h4 { font-size: 1.7em; }
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
-footer { border-top: 1px solid #bcbcbc; font-size: .8em; } 
+footer { border-top: 0.5px solid #bcbcbc; font-size: .8em; } 
 
 
 .solidblockmenu{
@@ -31,19 +31,16 @@ border: 1px solid #FFFFFF;
 border-width: 1px 0;
 background: black url(blde.png) center center repeat-x;
 }
-/*.solidblockmenu li{
+.solidblockmenu li{
 display: inline;
-}*/
+}
 .solidblockmenu li a{
 float: left;
 color: white;
-padding: 5px 7px;
+padding: 6px 7px;
 text-decoration: none;
 border-right: 1px solid white;
 }
-/*.solidblockmenu li a:visited{
-color: white;
-}*/
 .solidblockmenu li .current{
 color: white;
 background: transparent url(blac.png) center center repeat-x;
