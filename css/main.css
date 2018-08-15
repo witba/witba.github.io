@@ -1,4 +1,4 @@
-body { margin: 12px auto; width: 80%; background: #EEEEEE;}
+body { margin-bottom: 12px auto; width: 80%; background: #EEEEEE;}
 
 #style_container {
 width: 960px;
@@ -11,6 +11,22 @@ background: url(AR.png) no-repeat;
 }
 #style_content {
 width: 960px;
+}
+#style_title {
+padding-top: 30px;
+padding-left: 20px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size: 36px;
+font-style: italic;
+color: #000000;
+}
+#style_subtitle {
+padding-top: 20px;
+padding-left: 20px;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
 }
 
 a { text-decoration: none; color: #006ccc; }
