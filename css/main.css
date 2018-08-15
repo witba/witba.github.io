@@ -18,7 +18,14 @@ h4 { font-size: 1.7em; }
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
-footer { border-top: 1px solid #bcbcbc; font-size: .8em; background: #AA0000;}
+footer { 
+  clear: left;
+background: #AA0000;
+padding: 5px;
+font-size: 11px;
+color: #FFFFFF;
+}
+/*  border-top: 1px solid #bcbcbc; font-size: .8em; background: #AA0000;} */
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
