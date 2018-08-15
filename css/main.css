@@ -13,7 +13,7 @@ background: url(AR.png) no-repeat;
 width: 80%;
 }
 #style_title {
-padding-top: 30px;
+padding-top: 20px;
 padding-left: 20px;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-size: 36px;
@@ -21,7 +21,7 @@ font-style: italic;
 color: #000000;
 }
 #style_subtitle {
-padding-top: 20px;
+padding-top: 14px;
 padding-left: 20px;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-weight: bold;
