@@ -7,3 +7,62 @@ title: Witek
 			<h1>Hi there, I'm Witek!</h1>
 			<p>lalalaaa <em>hahaaa</em>. ookk. <a href="/about">Read more about my life...</a></p>
 </div> 
+
+<script language="javascript">
+
+function band1()
+{
+	var theText1 = escape(document.form1['search'].value);
+	window.location.href= "http://www.google.com/search?q=" + theText1;
+	return false;
+}
+
+function search1()
+{
+  // Take search2 contents
+	var theText1 = escape(document.form1['search2'].value);
+  // If there is a text then goto first search
+  if (theText1 != "") {
+	  window.location.href= "http://www.google.com/search?as_q=" + theText1 + "&num=10&btnG=Google+Search&as_oq=&as_epq=&as_eq=&as_occt=any&lr=&as_dt=i&as_sitesearch=scaruffi.com&safe=off";
+	} else {
+	  // else take search contents
+	  theText1 = escape(document.form1['search'].value);
+    // If there is a text then goto second search
+	  if (theText1 != "") band1();
+	  // else do nothing
+	}
+	return false;
+}
+// New erase function (erase text in id)
+function erase1(id) {
+  document.form1[id].value = "";
+}
+
+function band()
+{
+	var theText = escape(document.formGoogle['search'].value);
+	window.location.href= "http://www.google.com/search?q=" + theText;
+	return false;
+}
+
+function searchMysite()
+{
+  // Take search2 contents
+	var theText = escape(document.formGoogle['search2'].value);
+  // If there is a text then goto first search
+  if (theText != "") {
+	  window.location.href= "http://www.google.com/search?as_q=" + theText + "&num=10&btnG=Google+Search&as_oq=&as_epq=&as_eq=&as_occt=any&lr=&as_dt=i&as_sitesearch=scaruffi.com&safe=off";
+	} else {
+	  // else take search contents
+	  theText = escape(document.formGoogle['search'].value);
+    // If there is a text then goto second search
+	  if (theText != "") band();
+	  // else do nothing
+	}
+	return false;
+}
+// New erase function (erase text in id)
+function erase(id) {
+  document.formGoogle[id].value = "";
+}
+</script>
