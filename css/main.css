@@ -1,7 +1,7 @@
 body { margin: 0; background: #EEEEEE;}
 
-#style_container { margin: 20px auto; width: 75%; background: #FFFFFF;}
-#style_content { width: 75%;}
+#style_container { margin: 20px auto; width: 960px; background: #FFFFFF;}
+#style_content { width: 960px;}
 
 a { text-decoration: none; color: #006ccc; }
 a:hover { color: #008000; text-decoration: underline; }
