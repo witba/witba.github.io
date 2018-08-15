@@ -1,7 +1,7 @@
-body { margin:0 auto; padding:0; margin-bottom: 12px; width: 800; background: #EEEEEE;}
+body { margin:0 auto; padding:0; margin-bottom: 12px; width: 85%; background: #EEEEEE;}
 
 #style_container {
-width: 100%;
+width: 800px;
 margin: auto;
 background: #FFFFFF;
 }
@@ -10,7 +10,7 @@ height: 85px;
 background: #9fed40;
 }
 #style_content {
-width: 100%;
+width: 800px;
 }
 #style_title {
 padding-top: 15px;
