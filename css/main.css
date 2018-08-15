@@ -19,12 +19,20 @@ nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Ser
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { 
-  clear: left;
-background: #AA0000;
-padding: 5px;
-font-size: 11px;
-color: #FFFFFF;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
+
+<div class="footer">
+  <p>Footer</p>
+</div> 
+
 /*  border-top: 1px solid #bcbcbc; font-size: .8em; background: #AA0000;} */
 
 /* Blog */
