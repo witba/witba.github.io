@@ -54,7 +54,7 @@ footer { border-top: 1px solid #bcbcbc; font-size: .8em; }
 margin: 0;
 padding: 0;
 float: left;
-font: bold 14px Arial;
+font: bold 15px Arial;
 width: 100%;
 border: 1px solid #FFFFFF;
 border-width: 1px 0;
@@ -66,7 +66,7 @@ display: inline;
 .solidblockmenu li a{
 float: left;
 color: white;
-padding: 6px 7px;
+padding: 8px 10px;
 text-decoration: none;
 border-right: 1px solid white;
 }
