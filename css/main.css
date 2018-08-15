@@ -1,5 +1,18 @@
 body { margin: 12px auto; width: 80%; background: #EEEEEE;}
 
+#style_container {
+width: 960px;
+margin: auto;
+background: #FFFFFF;
+}
+#style_header {
+height: 100px;
+background: url(AR.png) no-repeat;
+}
+#style_content {
+width: 960px;
+}
+
 a { text-decoration: none; color: #006ccc; }
 a:hover { color: #008000; text-decoration: underline; }
 
