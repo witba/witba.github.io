@@ -38,13 +38,13 @@ a:hover { color: #008000; text-decoration: underline; }
 /*a:visited { color: #0066CC; text-decoration: none} */
 /*a:active { color: #008000; text-decoration: underline} */
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #023a47; }
+p, ul { font-size: 1em; line-height: 1em; color: #000000; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 2.6em;  }
-h2 { font-size: 2.2em; }
-h3 { font-size: 1.9em; }
-h4 { font-size: 1.7em; }
+h1 { font-size: 2.5em;  }
+h2 { font-size: 2.1em; }
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.4em; }
 
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
