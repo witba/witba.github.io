@@ -1,4 +1,4 @@
-body { margin:0 auto; padding:0; width: 980px; background: #f2e3cd;}
+body { margin:0 auto; padding:0; width: 980px; background: #dddddd;}
 
 #style_container {
 width: 100%;
@@ -11,7 +11,7 @@ background: #b5d8a6;
 }
 #style_content {
 width: 100%;
-background: #dddddd;
+background: #f4bc69;  /*f2e3cd;*/
 }
 #style_title {
 padding-top: 15px;
