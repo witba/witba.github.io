@@ -57,7 +57,7 @@ font: bold 15px Arial;
 width: 100%;
 border: 1px solid #FFFFFF;
 border-width: 1px 0;
-background: black #4c4c4c center center repeat-x; /*url(blde3.png) center center repeat-x;*/
+background: #4c4c4c; /*url(blde3.png) center center repeat-x;*/
 }
 .solidblockmenu li{
 display: inline;
@@ -71,11 +71,11 @@ border-right: 1px solid white;
 }
 .solidblockmenu li .current{
 color: white;
-background: transparent #3336c6 center center repeat-x; /*url(blac3.png) center center repeat-x;*/
+background: #3336c6 center center repeat-x; /*url(blac3.png) center center repeat-x;*/
 }
 .solidblockmenu li a:hover{
 color: white;
-background: transparent #cc43bc center center repeat-x; /*url(blho3.png) center center repeat-x;*/
+background: transparent #cc43bc; /*url(blho3.png) center center repeat-x;*/
 }
 
 
