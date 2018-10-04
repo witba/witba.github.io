@@ -57,7 +57,7 @@ font: bold 15px Arial;
 width: 100%;
 border: 1px solid #FFFFFF;
 border-width: 1px 0;
-background: #333333; /*background: black url(blde3.png) center center repeat-x;*/
+background: #333333; /*background: black url(blde.png) center center repeat-x;*/
 }
 .solidblockmenu li{
 display: inline;
@@ -71,11 +71,11 @@ border-right: 1px solid white;
 }
 .solidblockmenu li .current{
 color: white;
-background: #3c3fe8; /*background: transparent url(blac3.png) center center repeat-x;*/
+background: #3c3fe8; /*background: transparent url(blac.png) center center repeat-x;*/
 }
 .solidblockmenu li a:hover{
 color: white;
-background: #aa349d; /*background: transparent url(blho3.png) center center repeat-x;*/
+background: #aa349d; /*background: transparent url(blho.png) center center repeat-x;*/
 }
 
 
